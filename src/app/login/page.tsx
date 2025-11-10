@@ -100,7 +100,7 @@ export default function LoginPage() {
           </div>
 
           {/* Demo credentials */}
-          <div className="bg-gray-100 p-4 rounded-md text-sm">
+          <div className="bg-gray-100 p-4 rounded-md text-black text-sm">
             <p className="font-semibold mb-2">Demo Credentials:</p>
             <p>Email: testuser@gmail.com</p>
             <p>Password: test1234</p>

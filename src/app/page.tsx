@@ -75,7 +75,7 @@ export default function Dashboard() {
 
           {/* Quick Actions */}
           <div className="bg-white p-6 rounded-lg shadow-sm border mb-8">
-            <h2 className="text-xl font-semibold mb-4">Quick Actions</h2>
+            <h2 className="text-xl text-black font-semibold mb-4">Quick Actions</h2>
             <div className="flex space-x-4">
               <Link
                 href="/tasks"
@@ -94,7 +94,7 @@ export default function Dashboard() {
 
           {/* Recent Tasks */}
           <div className="bg-white p-6 rounded-lg shadow-sm border">
-            <h2 className="text-xl font-semibold mb-4">Recent Tasks</h2>
+            <h2 className="text-xl font-semibold text-black mb-4">Recent Tasks</h2>
             {loading ? (
               <div className="flex justify-center items-center py-8">
                 <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-blue-600"></div>
